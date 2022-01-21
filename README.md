@@ -1,6 +1,6 @@
 # Coffee Shop Layout
 
-[Live on GitHub Pages](Soon)
+[Live on GitHub Pages](https://rivicodes.github.io/coffee-shop-layout/)
 
 _Marketplace layout sample for a costumer. This project's objective is to code a coffee shop layout aimed to reach costumers interested in purchasing coffee-related products._
 
