@@ -1,0 +1,96 @@
+/* Imported Fonts */
+
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Pacifico&display=swap');
+
+/* Leckerli One */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+/* Flexbox test */
+
+/*
+* {
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+} */
+
+#main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(60, 20%, 17%);
+  color: white;
+}
+
+#header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 24px;
+}
+
+#main-header-list {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-left: 40px;
+  padding-left: 40px;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-image: url('images/coffee-beans.jpg');
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: antiquewhite;
+}
+
+#first-h1 {
+  font-size: 26px;
+  margin: 0%;
+  margin-top: 16px;
+}
+
+#second-h1 {
+  font-size: 48px;
+  margin: 0%;
+}
+
+#main-p {
+  font-family: 'Leckerli One', cursive;
+  font-size: 16px;
+  color: white;
+  padding: 0 100px 0 100px;
+}
+
+#explore-button {
+  padding: 16px 20px 16px 20px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: hsl(36, 100%, 54%);
+  color: white;
+}
+
+#coffee-beans {
+  height: 100px;
+  width: auto;
+}
