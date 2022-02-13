@@ -14,7 +14,7 @@
 
 /* Flexbox test */
 
-/*
+/* 
 * {
   border-style: solid;
   border-width: 1px;
@@ -25,6 +25,8 @@
 body {
   margin: 0;
 }
+
+/* Header */
 
 #main-header {
   display: flex;
@@ -64,6 +66,8 @@ li {
   font-size: 22px;
 }
 
+/* Welcome Section */
+
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -88,7 +92,7 @@ h1 {
 #second-h1 {
   font-size: 4em;
   margin: 1%;
-  background-color: rgba(127, 127, 127, 0.22);
+  background-image: url('images/welcome-section/paper-cardboard.jpg');
   border-radius: 50px;
   padding: 8px 40px;
 }
@@ -117,10 +121,12 @@ h1 {
   background-color: hsl(36, 100%, 58%);
 }
 
+/* Our services */
+
 #services {
   display: flex;
   flex-direction: row;
-  padding: 82px 20px 54px 20px;
+  padding: 56px 20px 36px 20px;
   background-color: rgb(249 220 201 / 49%);
   font-family: 'Concert One', cursive;
 }
@@ -133,33 +139,70 @@ h1 {
   text-align: center;
 }
 
+#services img {
+  width: 68px;
+  height: auto;
+}
+
 #services div h2 {
   margin-bottom: 0;
 }
 
-#coffee-mug {
-  width: 72px;
-  height: auto;
-}
-
-#coffee-cup {
-  width: 72px;
-  height: auto;
-}
-
-#coffee-bag {
-  width: 72px;
-  height: auto;
-}
-
-#wifi {
-  width: 72px;
-  height: auto;
-}
+/* About our Coffee */
 
 #about-our-coffee {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.left-our-coffee {
+  max-width: 500px;
+}
+
+.left-our-coffee > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-our-coffee > div img {
+  height: 44px;
+  width: 44px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.right-our-coffee {
+  display: flex;
   flex-direction: column;
+}
+
+.right-our-coffee img {
+  height: auto;
+  width: 300px;
+}
+
+/* Our Products */
+
+#our-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-card {
+  height: auto;
+  width: 100px;
+  border: 1px solid yellow;
 }
 
 #coffee-beans {
