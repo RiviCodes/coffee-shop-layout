@@ -12,9 +12,15 @@
 /* Concert One */
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
+/* Damion */
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Flexbox test */
 
-/* 
+/*
 * {
   border-style: solid;
   border-width: 1px;
@@ -155,11 +161,33 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-top: 44px;
-  padding-bottom: 44px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-width: 80em;
+}
+
+#about-our-coffee > div > h3 {
+  max-width: fit-content;
+  padding-bottom: 8px;
+  font-size: 40px;
+  font-family: 'Damion', cursive;
+  border-bottom: 3px solid #CFB299;
+}
+
+#about-our-coffee > div > h3 > span {
+  color: #9F643D;
+}
+
+#about-our-coffee div > p {
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-our-coffee div > div h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 .left-our-coffee {
+  padding-left: 120px;
   max-width: 500px;
 }
 
@@ -178,11 +206,14 @@ h1 {
 .right-our-coffee {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 480px;
 }
 
 .right-our-coffee img {
   height: auto;
   width: 300px;
+  border-radius: 30px;
 }
 
 /* Our Products */
