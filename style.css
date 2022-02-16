@@ -18,6 +18,12 @@
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Cabin */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Flexbox test */
 
 /*
@@ -161,13 +167,14 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 66px;
+  padding-bottom: 66px;
   min-width: 80em;
 }
 
 #about-our-coffee > div > h3 {
   max-width: fit-content;
+  margin: 0;
   padding-bottom: 8px;
   font-size: 40px;
   font-family: 'Damion', cursive;
@@ -225,16 +232,18 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 28px;
+  padding-top: 66px;
+  padding-bottom: 66px;
   background-color: rgb(249, 249, 249);
   padding-bottom: 80px;
 }
 
 #our-products > h3 {
   max-width: fit-content;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 40px;
   font-family: 'Damion', cursive;
-  margin-bottom: 20px;
 }
 
 #our-products > h3 > span {
@@ -243,6 +252,7 @@ h1 {
 
 #our-products > p {
   padding-bottom: 14px;
+  font-size: 18px;
   text-align: center;
   max-width: 800px;
   margin-bottom: 40px;
@@ -268,6 +278,78 @@ h1 {
   display: flex;
   height: auto;
   width: 200px;
+}
+
+/* What our Customers Say */
+
+#our-customers-say {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+#our-customers-say > h4 {
+  max-width: fit-content;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: 'Damion', cursive;
+  
+}
+
+#our-customers-say > h4 > span {
+  color: #9F643D;
+}
+
+#our-customers-say > p {
+  max-width: 800px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+}
+
+#review-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 260px;
+  margin: 20px 16px;
+  border-radius: 50px 10px;
+  padding: 20px 24px;
+  /*
+  background-color: #9F643D;
+  */
+  background-color: #61493C;
+}
+
+.review-card img {
+  align-self: center;
+  height: auto;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.review-card p {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.review-card span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 8px;
 }
 
 #coffee-beans {
