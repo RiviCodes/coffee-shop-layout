@@ -349,6 +349,49 @@ h1 {
   padding-bottom: 8px;
 }
 
+/* Book a Table */
+
+#book-a-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(249, 249, 249);
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+#book-a-table > img {
+  height: auto;
+  width: 220px;
+  border-radius: 50%;
+}
+
+#book-a-table > h4 {
+  font-size: 40px;
+  font-family: 'Damion', cursive;
+}
+
+#book-a-table > h4 > span {
+  color: rgb(212, 153, 105);
+}
+
+#book-a-table > button {
+  cursor: pointer;
+  border: 2px solid #744437;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background-color: white;
+  transition-duration: 0.6s;
+  font-size: 22px;
+  font-family: 'Pacifico', cursive;
+}
+
+#book-a-table > button:hover {
+  background-color: #9F643D;
+  color: white;
+}
+
 #coffee-beans {
   height: 100px;
   width: auto;
