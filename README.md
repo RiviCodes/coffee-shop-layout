@@ -22,6 +22,7 @@ A modern browser. May fail to load correctly if used in unsupported/old web brow
 ### Authors ✒️
 
 * ***@RiviCodes***
+*Credits*: Huge **THANK YOU** to [Pexels](https://www.pexels.com/) for all the amazing royalty-free pictures used in this project!
 
 ---
 
