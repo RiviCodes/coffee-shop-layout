@@ -119,19 +119,20 @@ h1 {
 }
 
 #explore-button {
-  padding: 14px 18px 14px 18px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  border-radius: 14px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: hsl(36, 100%, 44%);
-  color: white;
-  transition: background-color 0.4s ease-out 10ms;
+  cursor: pointer;
+  border: 2px solid #744437;
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background-color: white;
+  transition-duration: 0.6s;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
 }
 
 #explore-button:hover {
-  background-color: hsl(36, 100%, 58%);
+  background-color: #9F643D;
+  color: white;
 }
 
 /* Our services */
